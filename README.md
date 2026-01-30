@@ -5,8 +5,6 @@
 [![Demo](https://img.shields.io/badge/Demo-Live%20Preview-green?style=for-the-badge&logo=github)](https://yourusername.github.io/test-framework-checklist)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
-https://github.com/user-attachments/assets/6535b5b6-0b8c-4a1d-b9a0-7c8c5f8d8b9e
-
 ## 🌟 Почему это полезно?
 
 Оценка тестового фреймворка часто субъективна. Этот инструмент помогает:
