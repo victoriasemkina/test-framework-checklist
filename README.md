@@ -20,7 +20,7 @@
 ### Локальная разработка
 
 ```bash
-# 1. Клонируйте репозиторий
+# 1. Клонируйте репозиторий.
 git clone https://github.com/victoriasemkina/test-framework-checklist.git
 cd test-framework-checklist/vue-app
 
