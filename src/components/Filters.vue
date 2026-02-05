@@ -49,7 +49,7 @@
 
 <script setup>
 import { computed, ref, watch } from "vue";
-import { checklistData } from "../data/checklistData";
+import { checkListData } from "../data/checkListData";
 
 const emit = defineEmits([
   "update:search",
@@ -68,7 +68,7 @@ const localSearch = ref(props.search);
 const localCategory = ref(props.category);
 const localPriority = ref(props.priority);
 
-const categories = computed(() => checklistData.categories);
+const categories = computed(() => checkListData.categories);
 
 // Синхронизация с родителем
 watch(localSearch, (val) => emit("update:search", val));

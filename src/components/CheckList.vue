@@ -61,7 +61,7 @@
 
 <script setup>
 import { ref, computed, reactive } from 'vue'
-import { checklistData } from '../data/checklistData'
+import { checkListData } from '../data/checkListData'
 
 const emit = defineEmits(['toggle'])
 
@@ -70,8 +70,8 @@ const props = defineProps({
   completedItems: Object // Set
 })
 
-const priorities = checklistData.priorities
-const categories = checklistData.categories
+const priorities = checkListData.priorities
+const categories = checkListData.categories
 
 const expandedCategories = reactive({})
 categories.forEach(cat => {
