@@ -24,7 +24,7 @@
       @reset="resetFilters"
     />
     
-    <Checklist 
+    <CheckList 
       :items="filteredItems" 
       :completed-items="completedItems"
       @toggle="toggleItem"
@@ -45,12 +45,12 @@ import { ref, computed, watch, onMounted, provide } from 'vue'
 import Header from './components/Header.vue'
 import Dashboard from './components/Dashboard.vue'
 import Filters from './components/Filters.vue'
-import Checklist from './components/CheckList.vue'
+import CheckList from './components/CheckList.vue'
 import History from './components/History.vue'
 import ActionBar from './components/ActionBar.vue'
 import Footer from './components/Footer.vue'
-import { checklistData } from './data/checklistData'
-import { useChecklist } from './composables/useChecklist'
+import { checkListData } from './data/checkListData'
+import { useCheckList } from './composables/useCheckList'
 import { useFilters } from './composables/useFilters'
 import { useTheme } from './composables/useTheme'
 import { useHistory } from './composables/useHistory'
@@ -68,7 +68,7 @@ const {
   totalCategories,
   saveResults,
   resetAll
-} = useChecklist(checklistData)
+} = useCheckList(checkListData)
 
 const { 
   searchQuery, 
