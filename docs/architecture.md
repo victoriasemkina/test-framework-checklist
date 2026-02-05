@@ -49,12 +49,12 @@ vue-app/
 │ ├── Header.vue # Шапка с логотипом и статистикой
 │ ├── Dashboard.vue # Панель с уровнем зрелости
 │ ├── Filters.vue # Фильтры и поиск
-│ ├── Checklist.vue # Список критериев
+│ ├── CheckList.vue # Список критериев
 │ ├── History.vue # График истории
 │ ├── ActionBar.vue # Кнопки действий
 │ └── Footer.vue # Футер
 ├── composables/ # Логика приложения
-│ ├── useChecklist.js # Основная логика чек-листа
+│ ├── useCheckList.js # Основная логика чек-листа
 │ ├── useFilters.js # Фильтрация и поиск
 │ ├── useExport.js # Экспорт в разные форматы
 │ ├── useTheme.js # Управление темой
