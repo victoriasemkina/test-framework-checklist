@@ -49,7 +49,7 @@ import CheckList from './components/CheckList.vue'
 import History from './components/History.vue'
 import ActionBar from './components/ActionBar.vue'
 import Footer from './components/Footer.vue'
-import { checkListData } from './data/checkListData'
+import { checklistData } from './data/checkListData'
 import { useCheckList } from './composables/useCheckList'
 import { useFilters } from './composables/useFilters'
 import { useTheme } from './composables/useTheme'
@@ -68,7 +68,7 @@ const {
   totalCategories,
   saveResults,
   resetAll
-} = useCheckList(checkListData)
+} = useCheckList(checklistData)
 
 const { 
   searchQuery, 
