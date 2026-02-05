@@ -2,7 +2,7 @@
 
 > Интерактивный чек-лист для объективной оценки здоровья и зрелости вашего тестового фреймворка
 
-[![Demo](https://img.shields.io/badge/Demo-Live%20Preview-green?style=for-the-badge&logo=github)](https://yourusername.github.io/test-framework-checklist)
+[![Demo](https://img.shields.io/badge/Demo-Live%20Preview-green?style=for-the-badge&logo=github)](https://victoriasemkina.github.io/test-framework-checklist)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![Vue 3](https://img.shields.io/badge/Vue-3-%234FC08D?style=for-the-badge&logo=vue.js)](https://vuejs.org/)
 [![Vite](https://img.shields.io/badge/Vite-%23646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev/)
