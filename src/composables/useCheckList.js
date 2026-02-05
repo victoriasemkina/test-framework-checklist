@@ -1,6 +1,6 @@
 import { ref, computed, onMounted } from 'vue'
 
-export function useChecklist(checklistData) {
+export function useCheckList(checklistData) {
   // Реактивное состояние
   const completedItems = ref(new Set(JSON.parse(localStorage.getItem('checklist_completed')) || []))
   const items = ref([])
